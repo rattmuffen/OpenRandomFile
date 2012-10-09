@@ -1,0 +1,20 @@
+java jar OpenRandomFile.java 
+
+implemented:
+-dir=[DIR]. REQUIRED. (or not? nodir = workingdir)
+
+-delay=[delay]. OPTIONAL. int msec
+-filetypes=[ext1,ext2,ext3]. OPTIONAL. string allowed extensions
+
+suggested:
+-open=[true/false|yes/no|Y/N]
+-numbfiles=[int]
+-subfolder=[true/false|yes/no|Y/N]
+-noext=[ext]+
+-nofolders=[dir1]+
+
+
+
+EXEMPEL
+
+java jar OpenRandomFile.java -dir=[dir] -delay=100 -filtypes=txt,ex -open=Y -subfolder=Y, 
